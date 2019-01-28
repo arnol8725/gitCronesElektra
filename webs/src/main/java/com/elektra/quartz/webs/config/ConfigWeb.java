@@ -14,7 +14,8 @@ import com.elektra.quartz.services.repository.RepositoryAgenda;
         "com.elektra.quartz.services.entity",
         "com.elektra.quartz.services.repository",
         "com.elektra.quartz.services.service",
-        "com.elektra.quartz.services.serviceImpl"
+        "com.elektra.quartz.services.serviceImpl",
+        "com.elektra.quartz.services.dao"
     }
     )
 @EntityScan(basePackageClasses = {Agenda.class})

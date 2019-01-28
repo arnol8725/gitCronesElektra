@@ -69,7 +69,7 @@ public class MyJobTwo extends QuartzJobBean{
             
             try {
                 	LOG.info("antes de serviceAgenda" );
-                		detAgenda=serviceAgenda.detAgenda();
+                		//detAgenda=serviceAgenda.detAgenda();
             	    LOG.info("el valor de detAgenda"+ detAgenda.size());
             }catch(Exception e) {
             	  LOG.info("marco algun error" +e.getMessage() + "trace" +e.getStackTrace() );

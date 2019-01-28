@@ -17,7 +17,7 @@ import com.elektra.quartz.webs.crones.MyJobTwo;
 @Configuration 
 @ComponentScan("com.elektra.quartz.webs.config") 
 public class QuartzConfiguration {
-	@Bean
+/*	@Bean
 	public MethodInvokingJobDetailFactoryBean methodInvokingJobDetailFactoryBean() {
 		MethodInvokingJobDetailFactoryBean obj = new MethodInvokingJobDetailFactoryBean();
 		obj.setTargetBeanName("jobone");
@@ -64,5 +64,5 @@ public class QuartzConfiguration {
 		//scheduler.setTriggers(simpleTriggerFactoryBean().getObject(),cronTriggerFactoryBean().getObject());
 		scheduler.setTriggers(cronTriggerFactoryBean().getObject());
 		return scheduler;
-	}
+	}*/
 }
